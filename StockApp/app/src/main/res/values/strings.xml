@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nome da aplicação -->
+    <string name="app_name">Gestão de Stock</string>
+    
+    <!-- Navegação -->
+    <string name="nav_home">Início</string>
+    <string name="nav_scanner">Scanner</string>
+    <string name="nav_login">Entrar</string>
+    <string name="nav_about">Sobre</string>
+    
+    <!-- Autenticação -->
+    <string name="login_title">Entrar</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Entrar</string>
+    <string name="login_register_link">Não tem conta? Registe-se</string>
+    
+    <string name="register_title">Criar Conta</string>
+    <string name="register_name">Nome</string>
+    <string name="register_button">Criar Conta</string>
+    <string name="register_password_confirm">Confirmar Password</string>
+    
+    <string name="verify_title">Verificar Conta</string>
+    <string name="verify_code">Código de 6 dígitos</string>
+    <string name="verify_button">Verificar</string>
+    <string name="verify_resend">Reenviar código</string>
+    
+    <!-- Stock -->
+    <string name="stock_mode_entry">Modo: Entrada</string>
+    <string name="stock_mode_exit">Modo: Saída</string>
+    <string name="stock_entry">ENTRADA DE STOCK</string>
+    <string name="stock_exit">SAÍDA DE STOCK</string>
+    <string name="stock_current">Stock Atual</string>
+    <string name="stock_units">unidades</string>
+    <string name="stock_low_warning">Stock baixo!</string>
+    <string name="stock_quantity">Quantidade</string>
+    <string name="stock_notes">Observações (opcional)</string>
+    <string name="stock_confirm_entry">Registar Entrada</string>
+    <string name="stock_confirm_exit">Registar Saída</string>
+    
+    <!-- Produto -->
+    <string name="product_search">Pesquisar produto…</string>
+    <string name="product_not_found">Produto não encontrado</string>
+    <string name="product_category">Categoria</string>
+    <string name="product_location">Localização</string>
+    
+    <!-- Histórico -->
+    <string name="history_title">Histórico de Movimentos</string>
+    <string name="history_empty">Sem movimentos registados</string>
+    
+    <!-- Scanner -->
+    <string name="scanner_title">Scanner de Código de Barras</string>
+    <string name="scanner_permission">Permissão de Câmara Necessária</string>
+    <string name="scanner_permission_desc">Para ler códigos de barras, precisamos de acesso à câmara do dispositivo.</string>
+    <string name="scanner_allow">Permitir Câmara</string>
+    <string name="scanner_detected">Código detetado:</string>
+    <string name="scanner_new_scan">Novo Scan</string>
+    <string name="scanner_confirm">Confirmar</string>
+    <string name="scanner_instruction">Aponte a câmara para o código de barras</string>
+    
+    <!-- Geral -->
+    <string name="button_back">Voltar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_confirm">Confirmar</string>
+    <string name="button_save">Guardar</string>
+    <string name="button_clear">Limpar</string>
+    <string name="loading">A carregar…</string>
+    <string name="error">Erro</string>
+    <string name="success">Sucesso</string>
+    
+    <!-- Sobre -->
+    <string name="about_title">Sobre a Aplicação</string>
+    <string name="about_version">Versão</string>
+    <string name="about_academic">Informação Académica</string>
+    <string name="about_authors">Autores</string>
+    <string name="about_libraries">Bibliotecas e Frameworks</string>
+    <string name="about_description">Sobre o Projeto</string>
+    
+    <!-- Erros -->
+    <string name="error_network">Erro de ligação à rede</string>
+    <string name="error_login">Email ou password incorretos</string>
+    <string name="error_not_verified">Conta não verificada</string>
+    <string name="error_email_exists">Este email já está registado</string>
+    <string name="error_invalid_code">Código de verificação inválido</string>
+    <string name="error_stock_insufficient">Stock insuficiente</string>
+    <string name="error_auth_required">É necessário autenticar-se</string>
+</resources>

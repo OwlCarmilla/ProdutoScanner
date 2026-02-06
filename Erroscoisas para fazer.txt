@@ -1,0 +1,9 @@
+Erros/coisas para fazer:
+
+auto-refresher:
+ação de refresh com o gesto de cima para baixo para atualizar a lista de produtos
+
+scanner:
+número do código barras não correspondente
+butão de adicionar ou remover não funciona
+
