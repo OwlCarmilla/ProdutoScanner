@@ -1,0 +1,18 @@
+apagar as pastas de debug que estão no .NET;
+apagar StockApp\app\build\intermediates
+
+Como executar a app:
+
+1. Executar o contentor MYSQL em Docker
+
+abrir VS Code o ficheiro "docker-compose.yum"
+no terminal escrever "docker-compose up"
+
+2. Executar a Api
+
+Abrir a solução Visual Studio com o ficheiro "StockAPI.sIn"
+correr a solução no triângulo verde
+
+3. Executar a App em AndroidStudio
+
+instalar a JDK 17 no Ninite
