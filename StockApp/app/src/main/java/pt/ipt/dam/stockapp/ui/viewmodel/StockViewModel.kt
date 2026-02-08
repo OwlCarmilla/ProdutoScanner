@@ -208,6 +208,9 @@ class StockViewModel @Inject constructor(
                     // Recarregar histórico
                     loadHistorico(produto.id)
                     
+                    // Sincronizar lista de produtos para atualizar o stock no HomeScreen
+                    syncProdutos()
+                    
                     _uiState.update { 
                         it.copy(
                             isLoading = false,

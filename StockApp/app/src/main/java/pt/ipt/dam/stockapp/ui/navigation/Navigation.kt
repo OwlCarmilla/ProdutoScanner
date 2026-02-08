@@ -93,7 +93,12 @@ fun StockNavigation(
                 stockViewModel = stockViewModel,
                 onBarcodeScanned = { barcode ->
                     stockViewModel.scanBarcode(barcode)
-                    navController.popBackStack()
+                    // Navegar para ProductDetail após scan bem-sucedido
+                    // Usamos barcode como identificador temporário - o ViewModel carrega o produto
+                    navController.navigate("product/0") {
+                        // Remover o scanner da stack para evitar voltar ao scanner
+                        popUpTo(Screen.Home.route) { inclusive = false }
+                    }
                 },
                 onBack = { navController.popBackStack() }
             )
