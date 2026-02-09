@@ -16,3 +16,4 @@ correr a solução no triângulo verde
 3. Executar a App em AndroidStudio
 
 instalar a JDK 17 no Ninite
+Abrir o projeto "StockApp"
